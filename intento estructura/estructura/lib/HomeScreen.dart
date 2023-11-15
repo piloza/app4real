@@ -1,30 +1,9 @@
 import 'package:flutter/material.dart';
+
 import 'componentes.dart';
 
-import 'theme.dart';
-
-void main() {
-  runApp(const MyApp());
-}
-
-bool switchValue =
-    true; // Define una variable para controlar el estado del interruptor
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: MyTheme.lightTheme(),
-    );
-  }
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  get fontSize => null;
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -761,4 +740,4 @@ class MyApp extends StatelessWidget {
       ), //Se cierra SCaffold
     ); //Se cierra MaterialApp
   } //Se cierra el Widget Build contexts
-} // se cierra la clase
+}
