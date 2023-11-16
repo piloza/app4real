@@ -131,6 +131,7 @@ class HomeApp extends StatelessWidget {
           ),
           title: Text(title),
           subtitle: Text(subtitle),
+          trailing: const Icon(Icons.arrow_forward),
           onTap: () {
             if (kDebugMode) {}
           },
@@ -151,6 +152,7 @@ class HomeApp extends StatelessWidget {
           ),
           title: Text(title),
           subtitle: Text(subtitle),
+          trailing: const Icon(Icons.arrow_forward),
           onTap: () {
             if (kDebugMode) {}
           },
