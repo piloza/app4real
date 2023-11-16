@@ -30,7 +30,7 @@ class Card1 extends StatelessWidget {
             child: const Padding(
               padding: EdgeInsets.only(left: 8.0, top: 8.0),
               child: Text(
-                'Bloodborne',
+                'Descripción',
                 style: TextStyle(
                   fontFamily: 'Roboto',
                   fontWeight: FontWeight.bold,
