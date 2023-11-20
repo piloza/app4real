@@ -40,6 +40,13 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/appicon.png"
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -70,12 +77,18 @@ flutter:
     - assets/defaultpic.png
     - assets/fotocanal.png
     - assets/juego.jpg
+    - assets/fotocanal2.png
+    - assets/ironmouse.png
+    - assets/canal2.png
+    - assets/splash.png
+  
 
   fonts:
     - family: Roboto
       fonts:
         - asset: fonts/Roboto-Regular.ttf
         - asset: fonts/Roboto-Bold.ttf
+  
 
     
 
